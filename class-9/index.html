@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <style>
+    /* .big {
+      transform: scale(2);
+    } */
+    /* .hidden{
+      display: none;
+    } */
+  </style>
+  <body>
+    <!-- <img id="image" src="https://img.freepik.com/premium-photo/portrait-young-woman-using-mobile-phone_1048944-30344856.jpg?t=st=1707389030~exp=1707389630~hmac=ed4c6bd799e8c23ccd077220d11da7016a4a54fb87e1e4be3668e4315e550244" alt=""> -->
+    <!-- <img
+      onmouseover="updateImg()"
+      id="image"
+      onmouseout="removeZoom()"
+      src="data:image/jpeg;base64,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"
+      alt=""
+    /> -->
+
+ 
+    <!-- <h1>Hello</h1>
+    <h1>World</h1>
+        <label>
+            male <input type="radio" name="gender" value="m">
+        </label>
+        <br>
+        <label>
+            female <input type="radio" name="gender" value="f">
+        </label>
+        <br>
+        <button onclick="submit()">submit</button> -->
+
+        <!-- <p>this is fahad</p>
+        <p >here is keyy</p>
+        <p>looks like wow</p> -->
+
+        <!-- <div class="rules">
+          <p>this is fahad</p>
+          <p >here is keyy</p>
+          <p>looks like wow</p>
+        </div> -->
+
+
+    <script src="app.js"></script>
+  </body>
+</html>
