@@ -2,15 +2,15 @@
 
 // let arr = ['fahad','adeel','sohaib','ghous'];
 
-// arr.forEach(function(v,i){
-//     console.log(i,v);
-// })
-// arr.forEach((v,i)=>{
-//     console.log(i,v)
-// })
-// return nhi krta kuch
+// // arr.forEach(function(v,i){
+// //     console.log(i,v);
+// // })
+// // arr.forEach((v,i)=>{
+// //     console.log(i,v)
+// // })
+// // return nhi krta kuch
 // let returnValue = arr.forEach((v,i)=>{
-//     console.log(i,v)
+//     // console.log(i,v)
 //     return `hello ${v}`
 // })
 // console.log(returnValue)
@@ -21,7 +21,7 @@
 // new array me value return krta he
 // let arr = ['fahad','adeel','sohaib','ghous'];
 // let resultValue = arr.map((v,i)=>{
-//     console.log(v,i)
+    // console.log(v,i)
 //     return `hello ${v}`
 // })
 // console.log(resultValue)
@@ -121,11 +121,11 @@
 // const student = new Student('fahad','gmail.com');
 // console.log(student)
 
-class Student {
-    constructor(name,email){
-        this.name= name;
-        this.email= email;
-    }
-}
-const student = new Student('fahad','gmail.com');
-console.log(student)
+// class Student {
+//     constructor(name,email){
+//         this.name= name;
+//         this.email= email;
+//     }
+// }
+// const student = new Student('fahad','gmail.com');
+// console.log(student)
